@@ -1,6 +1,6 @@
 ﻿namespace Patterns.GenerativePatterns.Factory
 {
-    public class ToyCompanyCreator : CompanyCreator
+    internal class ToyCompanyCreator : CompanyCreator
     {
         public override Company Create(string name, double productPrice)
         {

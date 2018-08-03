@@ -40,6 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GenerativePatterns\Factory\Company.cs" />
+    <Compile Include="GenerativePatterns\Factory\CompanyCreator.cs" />
+    <Compile Include="GenerativePatterns\Factory\FactoryCaller.cs" />
+    <Compile Include="GenerativePatterns\Factory\ToyCompany.cs" />
+    <Compile Include="GenerativePatterns\Factory\ToyCompanyCreator.cs" />
+    <Compile Include="GenerativePatterns\Factory\WeaponCompany.cs" />
+    <Compile Include="GenerativePatterns\Factory\WeaponCompanyCreator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

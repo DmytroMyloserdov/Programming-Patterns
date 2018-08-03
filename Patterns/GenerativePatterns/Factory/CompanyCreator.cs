@@ -1,6 +1,6 @@
 ﻿namespace Patterns.GenerativePatterns.Factory
 {
-    public abstract class CompanyCreator
+    internal abstract class CompanyCreator
     {
         public abstract Company Create(string name, double productPrice);
     }

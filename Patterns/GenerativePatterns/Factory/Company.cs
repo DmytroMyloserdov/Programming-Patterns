@@ -1,6 +1,6 @@
 ﻿namespace Patterns.GenerativePatterns.Factory
 {
-    public abstract class Company
+    internal abstract class Company
     {
         public string Name { get; set; }
         public double ProductPrice { get; set; }

@@ -2,7 +2,7 @@
 
 namespace Patterns.GenerativePatterns.Factory
 {
-    public class WeaponCompany : Company
+    internal class WeaponCompany : Company
     {
         public WeaponCompany(string name, double productPrice) : base(name, productPrice)
         {
