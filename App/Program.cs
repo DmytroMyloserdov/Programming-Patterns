@@ -40,10 +40,12 @@ namespace App
                 Console.WriteLine("Choose pattern`s type:\n\t1.Generative Patterns\n\t2.Behavior Patterns\n\t3.Struct Patterns");
                 Byte.TryParse(Console.ReadLine(), out byte type);
 
-                Console.WriteLine($"Choose patter:{ TypePatterns[type] }");
+                Console.WriteLine($"Choose pattern:{ TypePatterns[type - 1] }");
                 Byte.TryParse(Console.ReadLine(), out byte pattern);
 
-                patternCallers[type][pattern].Invoke();
+                patternCallers[type - 1][pattern - 1].Invoke();
+
+                Console.ReadLine();
                 Console.Clear();
             }
         }
