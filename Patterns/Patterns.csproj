@@ -51,7 +51,12 @@
     <Compile Include="GenerativePatterns\AbstractFactory\Sword.cs" />
     <Compile Include="GenerativePatterns\AbstractFactory\WarriorFactory.cs" />
     <Compile Include="GenerativePatterns\AbstractFactory\Weapon.cs" />
+    <Compile Include="GenerativePatterns\Builder\Baker.cs" />
+    <Compile Include="GenerativePatterns\Builder\BreadBuilder.cs" />
     <Compile Include="GenerativePatterns\Builder\BuilderCaller.cs" />
+    <Compile Include="GenerativePatterns\Builder\Bread.cs" />
+    <Compile Include="GenerativePatterns\Builder\RyeBreadBuilder.cs" />
+    <Compile Include="GenerativePatterns\Builder\WheatBreadBuilder.cs" />
     <Compile Include="GenerativePatterns\Factory\Company.cs" />
     <Compile Include="GenerativePatterns\Factory\CompanyCreator.cs" />
     <Compile Include="GenerativePatterns\Factory\FactoryCaller.cs" />

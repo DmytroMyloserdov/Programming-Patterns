@@ -1,4 +1,5 @@
 ﻿using Patterns.GenerativePatterns.AbstractFactory;
+using Patterns.GenerativePatterns.Builder;
 using Patterns.GenerativePatterns.Factory;
 using Patterns.GenerativePatterns.Prototype;
 using Patterns.GenerativePatterns.Singleton;
@@ -20,7 +21,8 @@ namespace App
                 new PatternCaller(FactoryCaller.Call),
                 new PatternCaller(AbstractFactoryCaller.Call),
                 new PatternCaller(SingletonCaller.Call),
-                new PatternCaller(PrototypeCaller.Call)
+                new PatternCaller(PrototypeCaller.Call),
+                new PatternCaller(BuilderCaller.Call)
             },
             new PatternCaller[]
             {
