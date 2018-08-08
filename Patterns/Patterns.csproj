@@ -59,7 +59,10 @@
     <Compile Include="GenerativePatterns\Factory\ToyCompanyCreator.cs" />
     <Compile Include="GenerativePatterns\Factory\WeaponCompany.cs" />
     <Compile Include="GenerativePatterns\Factory\WeaponCompanyCreator.cs" />
+    <Compile Include="GenerativePatterns\Prototype\IStudiable.cs" />
     <Compile Include="GenerativePatterns\Prototype\PrototypeCaller.cs" />
+    <Compile Include="GenerativePatterns\Prototype\Pupil.cs" />
+    <Compile Include="GenerativePatterns\Prototype\Student.cs" />
     <Compile Include="GenerativePatterns\Singleton\Singleton.cs" />
     <Compile Include="GenerativePatterns\Singleton\SingletonCaller.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
