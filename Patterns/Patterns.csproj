@@ -40,6 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GenerativePatterns\AbstractFactory\AbstractFactoryCaller.cs" />
+    <Compile Include="GenerativePatterns\AbstractFactory\ArcherFactory.cs" />
+    <Compile Include="GenerativePatterns\AbstractFactory\Bow.cs" />
+    <Compile Include="GenerativePatterns\AbstractFactory\FootMove.cs" />
+    <Compile Include="GenerativePatterns\AbstractFactory\Hero.cs" />
+    <Compile Include="GenerativePatterns\AbstractFactory\HeroFactory.cs" />
+    <Compile Include="GenerativePatterns\AbstractFactory\HourseMove.cs" />
+    <Compile Include="GenerativePatterns\AbstractFactory\Movement.cs" />
+    <Compile Include="GenerativePatterns\AbstractFactory\Sword.cs" />
+    <Compile Include="GenerativePatterns\AbstractFactory\WarriorFactory.cs" />
+    <Compile Include="GenerativePatterns\AbstractFactory\Weapon.cs" />
+    <Compile Include="GenerativePatterns\Builder\BuilderCaller.cs" />
     <Compile Include="GenerativePatterns\Factory\Company.cs" />
     <Compile Include="GenerativePatterns\Factory\CompanyCreator.cs" />
     <Compile Include="GenerativePatterns\Factory\FactoryCaller.cs" />
@@ -47,6 +59,9 @@
     <Compile Include="GenerativePatterns\Factory\ToyCompanyCreator.cs" />
     <Compile Include="GenerativePatterns\Factory\WeaponCompany.cs" />
     <Compile Include="GenerativePatterns\Factory\WeaponCompanyCreator.cs" />
+    <Compile Include="GenerativePatterns\Prototype\PrototypeCaller.cs" />
+    <Compile Include="GenerativePatterns\Singleton\Singleton.cs" />
+    <Compile Include="GenerativePatterns\Singleton\SingletonCaller.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

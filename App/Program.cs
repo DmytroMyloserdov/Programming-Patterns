@@ -1,5 +1,6 @@
 ﻿using Patterns.GenerativePatterns.AbstractFactory;
 using Patterns.GenerativePatterns.Factory;
+using Patterns.GenerativePatterns.Singleton;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,8 @@ namespace App
             new PatternCaller[]
             {
                 new PatternCaller(FactoryCaller.Call),
-                new PatternCaller(AbstractFactoryCaller.Call)
+                new PatternCaller(AbstractFactoryCaller.Call),
+                new PatternCaller(SingletonCaller.Call)
             },
             new PatternCaller[]
             {
