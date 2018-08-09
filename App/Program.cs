@@ -1,4 +1,5 @@
-﻿using Patterns.BehaviorPatterns.Strategy;
+﻿using Patterns.BehaviorPatterns.Observer;
+using Patterns.BehaviorPatterns.Strategy;
 using Patterns.GenerativePatterns.AbstractFactory;
 using Patterns.GenerativePatterns.Builder;
 using Patterns.GenerativePatterns.Factory;
@@ -28,6 +29,7 @@ namespace App
             new PatternCaller[]
             {
                 new PatternCaller(StrategyCaller.Call),
+                new PatternCaller(ObserverCaller.Call),
 
             },
             new PatternCaller[]

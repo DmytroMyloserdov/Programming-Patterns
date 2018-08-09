@@ -45,9 +45,14 @@
     <Compile Include="BehaviorPatterns\Iterator\IteratorCaller.cs" />
     <Compile Include="BehaviorPatterns\Mediator\MediatorCaller.cs" />
     <Compile Include="BehaviorPatterns\Memento\MementoCaller.cs" />
+    <Compile Include="BehaviorPatterns\Observer\Bet.cs" />
+    <Compile Include="BehaviorPatterns\Observer\Better.cs" />
+    <Compile Include="BehaviorPatterns\Observer\IObservable.cs" />
+    <Compile Include="BehaviorPatterns\Observer\IObserver.cs" />
     <Compile Include="BehaviorPatterns\Observer\ObserverCaller.cs" />
     <Compile Include="BehaviorPatterns\ResponsibilityChain\ResponsibilityChainCaller.cs" />
     <Compile Include="BehaviorPatterns\State\StateCaller.cs" />
+    <Compile Include="BehaviorPatterns\Strategy\Car.cs" />
     <Compile Include="BehaviorPatterns\Strategy\ElectricMove.cs" />
     <Compile Include="BehaviorPatterns\Strategy\IMovable.cs" />
     <Compile Include="BehaviorPatterns\Strategy\PetrolMove.cs" />
