@@ -40,6 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BehaviorPatterns\Command\CommandCaller.cs" />
+    <Compile Include="BehaviorPatterns\Interpreter\InterpreterCaller.cs" />
+    <Compile Include="BehaviorPatterns\Iterator\IteratorCaller.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\MediatorCaller.cs" />
+    <Compile Include="BehaviorPatterns\Memento\MementoCaller.cs" />
+    <Compile Include="BehaviorPatterns\Observer\ObserverCaller.cs" />
+    <Compile Include="BehaviorPatterns\ResponsibilityChain\ResponsibilityChainCaller.cs" />
+    <Compile Include="BehaviorPatterns\State\StateCaller.cs" />
+    <Compile Include="BehaviorPatterns\Strategy\ElectricMove.cs" />
+    <Compile Include="BehaviorPatterns\Strategy\IMovable.cs" />
+    <Compile Include="BehaviorPatterns\Strategy\PetrolMove.cs" />
+    <Compile Include="BehaviorPatterns\Strategy\StrategyCaller.cs" />
+    <Compile Include="BehaviorPatterns\Template\TemplateCaller.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\VisitorCaller.cs" />
     <Compile Include="GenerativePatterns\AbstractFactory\AbstractFactoryCaller.cs" />
     <Compile Include="GenerativePatterns\AbstractFactory\ArcherFactory.cs" />
     <Compile Include="GenerativePatterns\AbstractFactory\Bow.cs" />
@@ -72,5 +86,6 @@
     <Compile Include="GenerativePatterns\Singleton\SingletonCaller.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
