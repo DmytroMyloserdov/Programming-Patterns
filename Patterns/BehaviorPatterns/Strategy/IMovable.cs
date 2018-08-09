@@ -1,6 +1,6 @@
 ﻿namespace Patterns.BehaviorPatterns.Strategy
 {
-    interface IMovable
+    internal interface IMovable
     {
         void Move();
     }
