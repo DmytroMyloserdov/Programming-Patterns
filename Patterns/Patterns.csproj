@@ -59,7 +59,12 @@
     <Compile Include="BehaviorPatterns\Observer\IObserver.cs" />
     <Compile Include="BehaviorPatterns\Observer\ObserverCaller.cs" />
     <Compile Include="BehaviorPatterns\ResponsibilityChain\ResponsibilityChainCaller.cs" />
+    <Compile Include="BehaviorPatterns\State\GasState.cs" />
+    <Compile Include="BehaviorPatterns\State\IWaterState.cs" />
+    <Compile Include="BehaviorPatterns\State\LiquidState.cs" />
+    <Compile Include="BehaviorPatterns\State\SolidState.cs" />
     <Compile Include="BehaviorPatterns\State\StateCaller.cs" />
+    <Compile Include="BehaviorPatterns\State\Water.cs" />
     <Compile Include="BehaviorPatterns\Strategy\Car.cs" />
     <Compile Include="BehaviorPatterns\Strategy\ElectricMove.cs" />
     <Compile Include="BehaviorPatterns\Strategy\IMovable.cs" />

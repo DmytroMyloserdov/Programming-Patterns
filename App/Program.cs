@@ -1,6 +1,7 @@
 ﻿using Patterns.BehaviorPatterns.Command;
 using Patterns.BehaviorPatterns.Iterator;
 using Patterns.BehaviorPatterns.Observer;
+using Patterns.BehaviorPatterns.State;
 using Patterns.BehaviorPatterns.Strategy;
 using Patterns.BehaviorPatterns.Template;
 using Patterns.GenerativePatterns.AbstractFactory;
@@ -36,6 +37,7 @@ namespace App
                 new PatternCaller(CommandCaller.Call),
                 new PatternCaller(TemplateCaller.Call),
                 new PatternCaller(IteratorCaller.Call),
+                new PatternCaller(StateCaller.Call),
 
             },
             new PatternCaller[]
