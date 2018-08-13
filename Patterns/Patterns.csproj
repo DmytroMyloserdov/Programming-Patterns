@@ -49,6 +49,8 @@
     <Compile Include="BehaviorPatterns\Command\SecuritySystemPult.cs" />
     <Compile Include="BehaviorPatterns\Interpreter\InterpreterCaller.cs" />
     <Compile Include="BehaviorPatterns\Iterator\IteratorCaller.cs" />
+    <Compile Include="BehaviorPatterns\Iterator\Library.cs" />
+    <Compile Include="BehaviorPatterns\Iterator\LibraryNumerator.cs" />
     <Compile Include="BehaviorPatterns\Mediator\MediatorCaller.cs" />
     <Compile Include="BehaviorPatterns\Memento\MementoCaller.cs" />
     <Compile Include="BehaviorPatterns\Observer\Bet.cs" />
