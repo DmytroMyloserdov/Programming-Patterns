@@ -1,4 +1,5 @@
-﻿using Patterns.BehaviorPatterns.Observer;
+﻿using Patterns.BehaviorPatterns.Command;
+using Patterns.BehaviorPatterns.Observer;
 using Patterns.BehaviorPatterns.Strategy;
 using Patterns.GenerativePatterns.AbstractFactory;
 using Patterns.GenerativePatterns.Builder;
@@ -30,6 +31,7 @@ namespace App
             {
                 new PatternCaller(StrategyCaller.Call),
                 new PatternCaller(ObserverCaller.Call),
+                new PatternCaller(CommandCaller.Call),
 
             },
             new PatternCaller[]
@@ -55,6 +57,7 @@ namespace App
                 Console.WriteLine($"Choose pattern:{ TypePatterns[type - 1] }");
                 Byte.TryParse(Console.ReadLine(), out byte pattern);
 
+                Console.Clear();
                 patternCallers[type - 1][pattern - 1].Invoke();
 
                 Console.ReadLine();

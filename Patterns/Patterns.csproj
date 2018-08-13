@@ -41,6 +41,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BehaviorPatterns\Command\CommandCaller.cs" />
+    <Compile Include="BehaviorPatterns\Command\ICommand.cs" />
+    <Compile Include="BehaviorPatterns\Command\PinCode.cs" />
+    <Compile Include="BehaviorPatterns\Command\PinCodeChangeCommand.cs" />
+    <Compile Include="BehaviorPatterns\Command\SecurityPanel.cs" />
+    <Compile Include="BehaviorPatterns\Command\SecurityPanelSwitcher.cs" />
+    <Compile Include="BehaviorPatterns\Command\SecuritySystemPult.cs" />
     <Compile Include="BehaviorPatterns\Interpreter\InterpreterCaller.cs" />
     <Compile Include="BehaviorPatterns\Iterator\IteratorCaller.cs" />
     <Compile Include="BehaviorPatterns\Mediator\MediatorCaller.cs" />
