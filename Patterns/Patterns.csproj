@@ -63,7 +63,10 @@
     <Compile Include="BehaviorPatterns\Strategy\IMovable.cs" />
     <Compile Include="BehaviorPatterns\Strategy\PetrolMove.cs" />
     <Compile Include="BehaviorPatterns\Strategy\StrategyCaller.cs" />
+    <Compile Include="BehaviorPatterns\Template\Education.cs" />
+    <Compile Include="BehaviorPatterns\Template\School.cs" />
     <Compile Include="BehaviorPatterns\Template\TemplateCaller.cs" />
+    <Compile Include="BehaviorPatterns\Template\University.cs" />
     <Compile Include="BehaviorPatterns\Visitor\VisitorCaller.cs" />
     <Compile Include="GenerativePatterns\AbstractFactory\AbstractFactoryCaller.cs" />
     <Compile Include="GenerativePatterns\AbstractFactory\ArcherFactory.cs" />
