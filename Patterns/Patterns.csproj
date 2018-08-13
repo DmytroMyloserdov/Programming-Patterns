@@ -58,7 +58,12 @@
     <Compile Include="BehaviorPatterns\Observer\IObservable.cs" />
     <Compile Include="BehaviorPatterns\Observer\IObserver.cs" />
     <Compile Include="BehaviorPatterns\Observer\ObserverCaller.cs" />
+    <Compile Include="BehaviorPatterns\ResponsibilityChain\CardHandler.cs" />
+    <Compile Include="BehaviorPatterns\ResponsibilityChain\ITransferHandler.cs" />
+    <Compile Include="BehaviorPatterns\ResponsibilityChain\MoneyHandler.cs" />
+    <Compile Include="BehaviorPatterns\ResponsibilityChain\Reciever.cs" />
     <Compile Include="BehaviorPatterns\ResponsibilityChain\ResponsibilityChainCaller.cs" />
+    <Compile Include="BehaviorPatterns\ResponsibilityChain\WebHandler.cs" />
     <Compile Include="BehaviorPatterns\State\GasState.cs" />
     <Compile Include="BehaviorPatterns\State\IWaterState.cs" />
     <Compile Include="BehaviorPatterns\State\LiquidState.cs" />
