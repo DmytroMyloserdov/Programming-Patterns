@@ -47,7 +47,12 @@
     <Compile Include="BehaviorPatterns\Command\SecurityPanel.cs" />
     <Compile Include="BehaviorPatterns\Command\SecurityPanelSwitcher.cs" />
     <Compile Include="BehaviorPatterns\Command\SecuritySystemPult.cs" />
+    <Compile Include="BehaviorPatterns\Interpreter\AddExpressions.cs" />
+    <Compile Include="BehaviorPatterns\Interpreter\Context.cs" />
+    <Compile Include="BehaviorPatterns\Interpreter\ExpressionToNumber.cs" />
+    <Compile Include="BehaviorPatterns\Interpreter\IExpression.cs" />
     <Compile Include="BehaviorPatterns\Interpreter\InterpreterCaller.cs" />
+    <Compile Include="BehaviorPatterns\Interpreter\SubstructExpressions.cs" />
     <Compile Include="BehaviorPatterns\Iterator\IteratorCaller.cs" />
     <Compile Include="BehaviorPatterns\Iterator\Library.cs" />
     <Compile Include="BehaviorPatterns\Iterator\LibraryNumerator.cs" />
