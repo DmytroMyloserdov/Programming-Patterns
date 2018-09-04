@@ -11,15 +11,12 @@ namespace Patterns.BehaviorPatterns.Interpreter
             _input = input;
         }
 
-        public List<int> Interpret(Context context)
+        public IEnumerable<int> Interpret(Context context)
         {
-            List<int> res = new List<int>();
             foreach (var s in _input)
             {
-                res.Add(context.GetVariable(s.ToString()));
+                yield return context.GetVariable(s.ToString());
             }
-
-            return res;
         }
 
         public void ChangeInput(string newInput)

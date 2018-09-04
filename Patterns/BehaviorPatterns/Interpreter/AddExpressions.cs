@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Patterns.BehaviorPatterns.Interpreter
 {
@@ -14,11 +15,10 @@ namespace Patterns.BehaviorPatterns.Interpreter
             _right = right;
         }
 
-        public List<int> Interpret(Context context)
+        public IEnumerable<int> Interpret(Context context)
         {
-            List<int> left = _left.Interpret(context) as List<int>;
-            List<int> right = _right.Interpret(context) as List<int>;
-            List<int> res = new List<int>();
+            List<int> left = _left.Interpret(context).ToList();
+            List<int> right = _right.Interpret(context).ToList();
 
             var isLeftBigger = left.Count > right.Count;
             int maxCount = 0, minCount = 0;
@@ -31,11 +31,11 @@ namespace Patterns.BehaviorPatterns.Interpreter
 
                 for (int i = 0; i < (maxCount - minCount); i++)
                 {
-                    res.Add(left[i]);
+                    yield return left[i];
                 }
                 for (int i = 0; i < minCount; i++)
                 {
-                    res.Add(left[i + (maxCount - minCount)] + right[i]);
+                    yield return left[i + (maxCount - minCount)] + right[i];
                 }
             }
             else
@@ -45,15 +45,13 @@ namespace Patterns.BehaviorPatterns.Interpreter
 
                 for (int i = 0; i < (maxCount - minCount); i++)
                 {
-                    res.Add(right[i]);
+                    yield return right[i];
                 }
                 for (int i = 0; i < minCount; i++)
                 {
-                    res.Add(right[i + (maxCount - minCount)] - left[i]);
+                    yield return right[i + (maxCount - minCount)] - left[i];
                 }
             }
-
-            return res;
         }
 
         public void ChangeExpressions(IExpression newLeft = null, IExpression newRight = null)

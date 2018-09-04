@@ -4,6 +4,6 @@ namespace Patterns.BehaviorPatterns.Interpreter
 {
     public interface IExpression
     {
-        List<int> Interpret(Context context);
+        IEnumerable<int> Interpret(Context context);
     }
 }

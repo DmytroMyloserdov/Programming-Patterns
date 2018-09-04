@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Patterns.BehaviorPatterns.Interpreter
 {
@@ -24,7 +25,7 @@ namespace Patterns.BehaviorPatterns.Interpreter
                 new ExpressionToNumber("ed")
             );
 
-            List<int> res = expression.Interpret(context);
+            List<int> res = expression.Interpret(context).ToList();
             res.ForEach(item => Console.Write(item));
         }
     }

@@ -10,6 +10,7 @@ namespace Patterns.BehaviorPatterns.Command
     internal class SecurityPanel
     {
         bool TurnedOn;
+
         public PinCode PinCode { get; private set; } = new PinCode();
 
         public void On()
