@@ -56,7 +56,13 @@
     <Compile Include="BehaviorPatterns\Iterator\IteratorCaller.cs" />
     <Compile Include="BehaviorPatterns\Iterator\Library.cs" />
     <Compile Include="BehaviorPatterns\Iterator\LibraryNumerator.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\Customer.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\Developer.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\IMediator.cs" />
     <Compile Include="BehaviorPatterns\Mediator\MediatorCaller.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\NotificationManager.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\QA.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\Worker.cs" />
     <Compile Include="BehaviorPatterns\Memento\MementoCaller.cs" />
     <Compile Include="BehaviorPatterns\Observer\Bet.cs" />
     <Compile Include="BehaviorPatterns\Observer\Better.cs" />
