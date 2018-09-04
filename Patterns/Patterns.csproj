@@ -63,6 +63,9 @@
     <Compile Include="BehaviorPatterns\Mediator\NotificationManager.cs" />
     <Compile Include="BehaviorPatterns\Mediator\QA.cs" />
     <Compile Include="BehaviorPatterns\Mediator\Worker.cs" />
+    <Compile Include="BehaviorPatterns\Memento\GameHistory.cs" />
+    <Compile Include="BehaviorPatterns\Memento\Hero.cs" />
+    <Compile Include="BehaviorPatterns\Memento\HeroMemento.cs" />
     <Compile Include="BehaviorPatterns\Memento\MementoCaller.cs" />
     <Compile Include="BehaviorPatterns\Observer\Bet.cs" />
     <Compile Include="BehaviorPatterns\Observer\Better.cs" />
