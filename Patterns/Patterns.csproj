@@ -132,6 +132,12 @@
     <Compile Include="GenerativePatterns\Singleton\Singleton.cs" />
     <Compile Include="GenerativePatterns\Singleton\SingletonCaller.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StructurePatterns\Decorator\ChickenPizza.cs" />
+    <Compile Include="StructurePatterns\Decorator\DecoratorCaller.cs" />
+    <Compile Include="StructurePatterns\Decorator\ItalianPizza.cs" />
+    <Compile Include="StructurePatterns\Decorator\MushroomPizza.cs" />
+    <Compile Include="StructurePatterns\Decorator\Pizza.cs" />
+    <Compile Include="StructurePatterns\Decorator\PizzaDecorator.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

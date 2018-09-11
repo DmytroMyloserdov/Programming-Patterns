@@ -14,6 +14,7 @@ using Patterns.GenerativePatterns.Builder;
 using Patterns.GenerativePatterns.Factory;
 using Patterns.GenerativePatterns.Prototype;
 using Patterns.GenerativePatterns.Singleton;
+using Patterns.StructurePatterns.Decorator;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -51,6 +52,7 @@ namespace App
             },
             new PatternCaller[]
             {
+                new PatternCaller(DecoratorCaller.Call),
 
             }
         };
