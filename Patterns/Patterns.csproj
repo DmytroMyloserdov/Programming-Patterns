@@ -40,6 +40,67 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BehaviorPatterns\Command\CommandCaller.cs" />
+    <Compile Include="BehaviorPatterns\Command\ICommand.cs" />
+    <Compile Include="BehaviorPatterns\Command\PinCode.cs" />
+    <Compile Include="BehaviorPatterns\Command\PinCodeChangeCommand.cs" />
+    <Compile Include="BehaviorPatterns\Command\SecurityPanel.cs" />
+    <Compile Include="BehaviorPatterns\Command\SecurityPanelSwitcher.cs" />
+    <Compile Include="BehaviorPatterns\Command\SecuritySystemPult.cs" />
+    <Compile Include="BehaviorPatterns\Interpreter\AddExpressions.cs" />
+    <Compile Include="BehaviorPatterns\Interpreter\Context.cs" />
+    <Compile Include="BehaviorPatterns\Interpreter\ExpressionToNumber.cs" />
+    <Compile Include="BehaviorPatterns\Interpreter\IExpression.cs" />
+    <Compile Include="BehaviorPatterns\Interpreter\InterpreterCaller.cs" />
+    <Compile Include="BehaviorPatterns\Interpreter\SubstructExpressions.cs" />
+    <Compile Include="BehaviorPatterns\Iterator\IteratorCaller.cs" />
+    <Compile Include="BehaviorPatterns\Iterator\Library.cs" />
+    <Compile Include="BehaviorPatterns\Iterator\LibraryNumerator.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\Customer.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\Developer.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\IMediator.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\MediatorCaller.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\NotificationManager.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\QA.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\Worker.cs" />
+    <Compile Include="BehaviorPatterns\Memento\GameHistory.cs" />
+    <Compile Include="BehaviorPatterns\Memento\Hero.cs" />
+    <Compile Include="BehaviorPatterns\Memento\HeroMemento.cs" />
+    <Compile Include="BehaviorPatterns\Memento\MementoCaller.cs" />
+    <Compile Include="BehaviorPatterns\Observer\Bet.cs" />
+    <Compile Include="BehaviorPatterns\Observer\Better.cs" />
+    <Compile Include="BehaviorPatterns\Observer\IObservable.cs" />
+    <Compile Include="BehaviorPatterns\Observer\IObserver.cs" />
+    <Compile Include="BehaviorPatterns\Observer\ObserverCaller.cs" />
+    <Compile Include="BehaviorPatterns\ResponsibilityChain\CardHandler.cs" />
+    <Compile Include="BehaviorPatterns\ResponsibilityChain\ITransferHandler.cs" />
+    <Compile Include="BehaviorPatterns\ResponsibilityChain\MoneyHandler.cs" />
+    <Compile Include="BehaviorPatterns\ResponsibilityChain\Reciever.cs" />
+    <Compile Include="BehaviorPatterns\ResponsibilityChain\ResponsibilityChainCaller.cs" />
+    <Compile Include="BehaviorPatterns\ResponsibilityChain\WebHandler.cs" />
+    <Compile Include="BehaviorPatterns\State\GasState.cs" />
+    <Compile Include="BehaviorPatterns\State\IWaterState.cs" />
+    <Compile Include="BehaviorPatterns\State\LiquidState.cs" />
+    <Compile Include="BehaviorPatterns\State\SolidState.cs" />
+    <Compile Include="BehaviorPatterns\State\StateCaller.cs" />
+    <Compile Include="BehaviorPatterns\State\Water.cs" />
+    <Compile Include="BehaviorPatterns\Strategy\Car.cs" />
+    <Compile Include="BehaviorPatterns\Strategy\ElectricMove.cs" />
+    <Compile Include="BehaviorPatterns\Strategy\IMovable.cs" />
+    <Compile Include="BehaviorPatterns\Strategy\PetrolMove.cs" />
+    <Compile Include="BehaviorPatterns\Strategy\StrategyCaller.cs" />
+    <Compile Include="BehaviorPatterns\Template\Education.cs" />
+    <Compile Include="BehaviorPatterns\Template\School.cs" />
+    <Compile Include="BehaviorPatterns\Template\TemplateCaller.cs" />
+    <Compile Include="BehaviorPatterns\Template\University.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\Bank.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\Company.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\HtmlVisitor.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\IAccount.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\IVisitor.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\Person.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\VisitorCaller.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\XmlVisitor.cs" />
     <Compile Include="GenerativePatterns\AbstractFactory\AbstractFactoryCaller.cs" />
     <Compile Include="GenerativePatterns\AbstractFactory\ArcherFactory.cs" />
     <Compile Include="GenerativePatterns\AbstractFactory\Bow.cs" />
@@ -72,5 +133,6 @@
     <Compile Include="GenerativePatterns\Singleton\SingletonCaller.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

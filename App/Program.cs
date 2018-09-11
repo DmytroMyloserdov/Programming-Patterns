@@ -1,4 +1,15 @@
-﻿using Patterns.GenerativePatterns.AbstractFactory;
+﻿using Patterns.BehaviorPatterns.Command;
+using Patterns.BehaviorPatterns.Interpreter;
+using Patterns.BehaviorPatterns.Iterator;
+using Patterns.BehaviorPatterns.Mediator;
+using Patterns.BehaviorPatterns.Memento;
+using Patterns.BehaviorPatterns.Observer;
+using Patterns.BehaviorPatterns.ResponsibilityChain;
+using Patterns.BehaviorPatterns.State;
+using Patterns.BehaviorPatterns.Strategy;
+using Patterns.BehaviorPatterns.Template;
+using Patterns.BehaviorPatterns.Visitor;
+using Patterns.GenerativePatterns.AbstractFactory;
 using Patterns.GenerativePatterns.Builder;
 using Patterns.GenerativePatterns.Factory;
 using Patterns.GenerativePatterns.Prototype;
@@ -26,7 +37,17 @@ namespace App
             },
             new PatternCaller[]
             {
-
+                new PatternCaller(StrategyCaller.Call),
+                new PatternCaller(ObserverCaller.Call),
+                new PatternCaller(CommandCaller.Call),
+                new PatternCaller(TemplateCaller.Call),
+                new PatternCaller(IteratorCaller.Call),
+                new PatternCaller(StateCaller.Call),
+                new PatternCaller(ResponsibilityChainCaller.Call),
+                new PatternCaller(InterpreterCaller.Call),
+                new PatternCaller(MediatorCaller.Call),
+                new PatternCaller(MementoCaller.Call),
+                new PatternCaller(VisitorCaller.Call)
             },
             new PatternCaller[]
             {
@@ -51,6 +72,7 @@ namespace App
                 Console.WriteLine($"Choose pattern:{ TypePatterns[type - 1] }");
                 Byte.TryParse(Console.ReadLine(), out byte pattern);
 
+                Console.Clear();
                 patternCallers[type - 1][pattern - 1].Invoke();
 
                 Console.ReadLine();
