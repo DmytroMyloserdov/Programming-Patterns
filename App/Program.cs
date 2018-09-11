@@ -8,6 +8,7 @@ using Patterns.BehaviorPatterns.ResponsibilityChain;
 using Patterns.BehaviorPatterns.State;
 using Patterns.BehaviorPatterns.Strategy;
 using Patterns.BehaviorPatterns.Template;
+using Patterns.BehaviorPatterns.Visitor;
 using Patterns.GenerativePatterns.AbstractFactory;
 using Patterns.GenerativePatterns.Builder;
 using Patterns.GenerativePatterns.Factory;
@@ -46,7 +47,7 @@ namespace App
                 new PatternCaller(InterpreterCaller.Call),
                 new PatternCaller(MediatorCaller.Call),
                 new PatternCaller(MementoCaller.Call),
-
+                new PatternCaller(VisitorCaller.Call)
             },
             new PatternCaller[]
             {

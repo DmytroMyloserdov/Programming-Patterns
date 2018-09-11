@@ -93,7 +93,14 @@
     <Compile Include="BehaviorPatterns\Template\School.cs" />
     <Compile Include="BehaviorPatterns\Template\TemplateCaller.cs" />
     <Compile Include="BehaviorPatterns\Template\University.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\Bank.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\Company.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\HtmlVisitor.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\IAccount.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\IVisitor.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\Person.cs" />
     <Compile Include="BehaviorPatterns\Visitor\VisitorCaller.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\XmlVisitor.cs" />
     <Compile Include="GenerativePatterns\AbstractFactory\AbstractFactoryCaller.cs" />
     <Compile Include="GenerativePatterns\AbstractFactory\ArcherFactory.cs" />
     <Compile Include="GenerativePatterns\AbstractFactory\Bow.cs" />
