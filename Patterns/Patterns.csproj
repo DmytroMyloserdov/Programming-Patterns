@@ -145,6 +145,12 @@
     <Compile Include="StructurePatterns\Decorator\MushroomPizza.cs" />
     <Compile Include="StructurePatterns\Decorator\Pizza.cs" />
     <Compile Include="StructurePatterns\Decorator\PizzaDecorator.cs" />
+    <Compile Include="StructurePatterns\Facade\CLR.cs" />
+    <Compile Include="StructurePatterns\Facade\Compiler.cs" />
+    <Compile Include="StructurePatterns\Facade\FacadeCaller.cs" />
+    <Compile Include="StructurePatterns\Facade\Programmer.cs" />
+    <Compile Include="StructurePatterns\Facade\TextEditor.cs" />
+    <Compile Include="StructurePatterns\Facade\VSFacade.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
