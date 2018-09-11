@@ -139,6 +139,10 @@
     <Compile Include="StructurePatterns\Adapter\Hourse.cs" />
     <Compile Include="StructurePatterns\Adapter\IAnimal.cs" />
     <Compile Include="StructurePatterns\Adapter\ITransport.cs" />
+    <Compile Include="StructurePatterns\Composite\Component.cs" />
+    <Compile Include="StructurePatterns\Composite\CompositeCaller.cs" />
+    <Compile Include="StructurePatterns\Composite\Directory.cs" />
+    <Compile Include="StructurePatterns\Composite\File.cs" />
     <Compile Include="StructurePatterns\Decorator\ChickenPizza.cs" />
     <Compile Include="StructurePatterns\Decorator\DecoratorCaller.cs" />
     <Compile Include="StructurePatterns\Decorator\ItalianPizza.cs" />
