@@ -132,6 +132,13 @@
     <Compile Include="GenerativePatterns\Singleton\Singleton.cs" />
     <Compile Include="GenerativePatterns\Singleton\SingletonCaller.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StructurePatterns\Adapter\AdapterCaller.cs" />
+    <Compile Include="StructurePatterns\Adapter\AnimalToTransportAdapter.cs" />
+    <Compile Include="StructurePatterns\Adapter\Auto.cs" />
+    <Compile Include="StructurePatterns\Adapter\Driver.cs" />
+    <Compile Include="StructurePatterns\Adapter\Hourse.cs" />
+    <Compile Include="StructurePatterns\Adapter\IAnimal.cs" />
+    <Compile Include="StructurePatterns\Adapter\ITransport.cs" />
     <Compile Include="StructurePatterns\Decorator\ChickenPizza.cs" />
     <Compile Include="StructurePatterns\Decorator\DecoratorCaller.cs" />
     <Compile Include="StructurePatterns\Decorator\ItalianPizza.cs" />
